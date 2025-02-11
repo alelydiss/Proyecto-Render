@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resumen de Tareas</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<h1>Resumen de Tareas</h1>
+<p>Total de tareas: <span th:text="${totalCount}"></span></p>
+<p>Tareas completadas: <span th:text="${completedCount}"></span></p>
+<p>Tareas pendientes: <span th:text="${pendingCount}"></span></p>
+
+<a href="/">Volver a la Lista de Tareas</a>
+</body>
+</html>
