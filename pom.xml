@@ -11,7 +11,7 @@
 	<groupId>org.example</groupId>
 	<artifactId>ProyectoTareas</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>ProyectoTareas</name>
 	<description>ProyectoTareas</description>
 	<url/>
